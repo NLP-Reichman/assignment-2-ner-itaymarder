@@ -1,1 +1,30 @@
-{}
+{
+  "test_link": {
+    "link": "https://colab.research.google.com/drive/176XJmGbCqGLbxseXbkvhK5N9P3Qf3u77?usp=sharing"
+  },
+  "test_read_data": {
+    "lengths": [
+      1750,
+      250,
+      500
+    ]
+  },
+  "test_vocab": {
+    "length": 7163,
+    "tag2id_length": 7,
+    "Spongebob": 1
+  },
+  "test_count_oov": {
+    "dev_oov": 638,
+    "test_oov": 1368
+  },
+  "test_prepare_data_loader": {
+    "lengths": [
+      110,
+      16,
+      32
+    ]
+  },
+  "test_NERNet": "NameError(\"name 'best_model_cfg' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_995/49652930.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_995/49652930.py\", line 52, in test_NERNet\n    hidden_size = best_model_cfg['hidden_size']\n                  ^^^^^^^^^^^^^^\nNameError: name 'best_model_cfg' is not defined\n",
+  "test_glove": "NameError(\"name 'get_emb_matrix' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_995/49652930.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_995/49652930.py\", line 73, in test_glove\n    emb_matrix = get_emb_matrix(emb_file, vocab)\n                 ^^^^^^^^^^^^^^\nNameError: name 'get_emb_matrix' is not defined\n"
+}
