@@ -26,8 +26,11 @@
     ]
   },
   "test_NERNet": {
-    "f1": 0.965898318866515,
-    "f1_wo_o": 0.9719056325095974
+    "f1": 0.9602472255848691,
+    "f1_wo_o": 0.9681237872356433
   },
-  "test_glove": "NameError(\"name 'get_emb_matrix' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_1482/49652930.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_1482/49652930.py\", line 73, in test_glove\n    emb_matrix = get_emb_matrix(emb_file, vocab)\n                 ^^^^^^^^^^^^^^\nNameError: name 'get_emb_matrix' is not defined\n"
+  "test_glove": {
+    "f1": 0.9629018008648508,
+    "f1_wo_o": 0.971504959664991
+  }
 }
