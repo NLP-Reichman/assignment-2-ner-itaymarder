@@ -25,6 +25,6 @@
       32
     ]
   },
-  "test_NERNet": "NameError(\"name 'best_model_cfg' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_995/49652930.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_995/49652930.py\", line 52, in test_NERNet\n    hidden_size = best_model_cfg['hidden_size']\n                  ^^^^^^^^^^^^^^\nNameError: name 'best_model_cfg' is not defined\n",
-  "test_glove": "NameError(\"name 'get_emb_matrix' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_995/49652930.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_995/49652930.py\", line 73, in test_glove\n    emb_matrix = get_emb_matrix(emb_file, vocab)\n                 ^^^^^^^^^^^^^^\nNameError: name 'get_emb_matrix' is not defined\n"
+  "test_NERNet": "KeyError('F1')\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_1482/49652930.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_1482/49652930.py\", line 66, in test_NERNet\n    'f1': results['F1'],\n          ~~~~~~~^^^^^^\nKeyError: 'F1'\n",
+  "test_glove": "NameError(\"name 'get_emb_matrix' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_1482/49652930.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_1482/49652930.py\", line 73, in test_glove\n    emb_matrix = get_emb_matrix(emb_file, vocab)\n                 ^^^^^^^^^^^^^^\nNameError: name 'get_emb_matrix' is not defined\n"
 }
